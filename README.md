@@ -24,7 +24,7 @@ In Heroku Settings / Reveal Config Vars create a new variable TOKEN and set its 
 
 Congratulations, you have an lichess bot which is playing!
 
-**NOTICE**
+**NOTICE**!
 Your bot maybe not online sometimes because it will be sleeping
 If your bot stops playing restart your dynos by clicking on more and then restart dynos and wait for 1min
 It will play variants but it will be weak
