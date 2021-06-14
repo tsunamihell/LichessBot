@@ -5,15 +5,15 @@ Create your own permanent Lichess BoT
 
 If you want to create your own permanent bot, do the following:
 
-Sign up to GitHub https://github.com/join , if you have not already.
+Sign up to GitHub https://github.com/join , if you dont have an account
 
 With your GitHub account  click on Fork.
 
-Create a BOT account if you do not already have one. To create one use an account that has not played any games yet, log into this account, then visit https://hypereasy.herokuapp.com/auth/lichess/bot , approve oauth and then on the page you are taken to click on 'Request upgrade to bot'. 
+Create a new account in lichess  then make it a bot using https://hypereasy.herokuapp.com/auth/lichess/bot , approve oauth and then on the page you are taken to click on 'Request upgrade to bot'. 
 
 Create an API access token with your BOT account at https://lichess.org/account/oauth/token/create?scopes[]=challenge:read&scopes[]=challenge:write&scopes[]=bot:play&description=Hyper%20Bot%20TOKEN ( should have scopes Read incoming challenges / Create, accept, decline challenges / Play games with the bot API )
 
-Sign up to Heroku https://signup.heroku.com/ , if you have not already.
+Sign up to Heroku https://signup.heroku.com/ , if you dont have an account
 
 At Heroku create a new app using New / Create new app. Choose Europe for region.
 
